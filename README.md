@@ -5,3 +5,15 @@
 This repository contains GIF animations of classifiers learning a decision rule. We can visualize the rule a classifier learns as a decision boundary separating the features of each class. In the animations, the *optimal* decision boundary is drawn with a dashed line. In a sense, the "goal" of a classifier is to fit a curve to this optimal boundary.
 
 The animations depict a binary classification problem over two distributions. A `mvn` in the filename indicates the features of each class are distributed normally; a `mix` in the filename indicates the features of each class are distributed as a mixture of normal distributions.
+
+The animations were created in R, using the `gganimate` package.
+
+* TODO - List classifier packages and cite.
+
+----
+
+# Citations #
+
+1.  Thomas Lin Pedersen and David Robinson (2019). gganimate: A Grammar
+    of Animated Graphics. R package version 1.0.4.
+    https://CRAN.R-project.org/package=gganimate
