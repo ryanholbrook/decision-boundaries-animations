@@ -7,13 +7,16 @@ The animations depict a binary classification problem over two distributions. A 
 The animations were created in R, using the `{gganimate}` package. The classifiers illustrated are:
 
 + [Extreme Learning Machine](https://en.wikipedia.org/wiki/Extreme_learning_machine) with `{elmNNRcpp::elm_train}`
++ [Gaussian Process](https://en.wikipedia.org/wiki/Kriging) with `{kernlab::gausspr}`
 + [Generalized Additive Model](https://en.wikipedia.org/wiki/Generalized_additive_model) with `{mgcv::gam}`
 + [Generalized Linear Model](https://en.wikipedia.org/wiki/Generalized_linear_model) with `{stats::glm}`
 + [k-Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) with `{class::knn}`
 + [Multivariate Adaptive Regression Spline](https://en.wikipedia.org/wiki/Multivariate_adaptive_regression_spline) with `{earth::earth}`
 + [Mixture Discriminant Analysis](https://web.stanford.edu/~hastie/TALKS/mfpda.pdf) with `{mda::mda}`
++ [Naive Bayes Classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) with `{naivebayes::naive_bayes}`
 + [Feedforward Neural Network](https://en.wikipedia.org/wiki/Feedforward_neural_network) with `{nnet::nnet}`
 + [Polynomial MARS](http://kooperberg.fhcrc.org/monopdf/mono.html) with `{polspline::polymars}`
++ [Boosted P-Splines](https://en.wikipedia.org/wiki/B-spline) with `{mboost::mboost}`
 + [Quadratic Discriminant Analysis](https://en.wikipedia.org/wiki/Quadratic_classifier) with `{MASS::qda}`
 + [Random Forest](https://en.wikipedia.org/wiki/Random_forest) with `{ranger::ranger}`
 + [Decision Tree](https://en.wikipedia.org/wiki/Decision_tree_learning) with `{rpart::rpart}`
