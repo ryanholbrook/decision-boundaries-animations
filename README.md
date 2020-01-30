@@ -4,7 +4,9 @@ This repository contains GIF animations of classifiers learning a decision rule.
 
 The animations depict a binary classification problem over two distributions. A `mvn` in the filename indicates the features of each class are distributed normally; a `mix` in the filename indicates the features of each class are distributed as a mixture of normal distributions.
 
-The animations were created in R, using the `{gganimate}` package. The classifiers illustrated are:
+The animations were created in R, using the `{gganimate}` package. A repository of functions to generate the animations can be found [here](https://github.com/ryanholbrook/mlanimate).
+
+The classifiers illustrated are:
 
 + [Extreme Learning Machine](https://en.wikipedia.org/wiki/Extreme_learning_machine) with `{elmNNRcpp::elm_train}`
 + [Gaussian Process](https://en.wikipedia.org/wiki/Kriging) with `{kernlab::gausspr}`
